@@ -1,21 +1,7 @@
 import fcp
 import pickle
 import sys
-
-#Including this class so we can read all samples
-class Sample:
-
-        # Derive all of our needed information from a path
-        def __init__(self, path):
-                h = SHA256.new()
-                f = open(path, 'rb')
-                for l in f:
-                        h.update(l)
-                self.path=path
-                self.sha256sum=h.hexdigest()
-                self.magictype=magic.from_file(path)
-                self.size=os.lstat(path).st_size
-                #self.detectratio=detectratio Add code for detection ratio later
+from SampleManager import *
 
 #Fetches a list of samples that have been recently inserted
 def recent_inserts(loc, node):
