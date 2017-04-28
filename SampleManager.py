@@ -80,6 +80,7 @@ class Sample:
 		for l in f:
 			h.update(l)
 		self.path=path
+		self.chk=""
 		self.sha256sum=h.hexdigest()
 		self.magictype=magic.from_file(path)
 		self.size=os.lstat(path).st_size
