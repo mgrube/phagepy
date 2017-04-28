@@ -19,7 +19,7 @@ def fetchallsamples(loc, node):
 if __name__=="__main__":
 	n = fcp.node.FCPNode()
 
-	uri = "USK@~6vVyXEZElls5TBC5C~DXUB4eg2LIYX4ACgbpLMlxew,u-02Lf0DJbR2fjG2pjF2rXngLySjszgvv~L2349njD8,AQACAAE/phageproto/-1"
+	uri = "USK@760O9oWaTNUMfNkVzm0yvpihEhdaKasm6ssYIpVf8Cs,grC7jQbnR8Ar9jYY2YA9DPBojbG5ptPOGdhIeDDrD9Q,AQACAAE/phageproto/0"
 
 	print "Welcome to Phage 0.0.1!"
 
